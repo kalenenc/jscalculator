@@ -1,0 +1,53 @@
+html {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#59968b, #8A4F7D);
+  height: 100%; }
+
+div.calc-container div.calc {
+  background: #79B4A9;
+  width: 35%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 5px;
+  padding: 15px; }
+  div.calc-container div.calc button {
+    display: block;
+    padding: 20px;
+    width: 25%;
+    height: 25%;
+    margin: 5px;
+    background: #8A4F7D;
+    color: #D7F2BA;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 2px #af679f;
+    font-size: 1.5em; }
+  div.calc-container div.calc div.input-container {
+    text-align: center;
+    overflow: hidden; }
+    div.calc-container div.calc div.input-container input {
+      height: 70px;
+      width: 95%;
+      margin: 20px auto;
+      text-align: right;
+      border-radius: 5px;
+      border: none;
+      font-size: 2em;
+      color: #59968b; }
+  div.calc-container div.calc .button-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px; }
+
+@media only screen and (max-width: 900px) {
+  div.calc-container div.calc {
+    width: 50%; } }
+@media only screen and (max-width: 770px) {
+  div.calc-container div.calc {
+    width: 60%; } }
+@media only screen and (max-width: 580px) {
+  div.calc-container div.calc {
+    width: 90%; } }
+
+/*# sourceMappingURL=output.css.map */
